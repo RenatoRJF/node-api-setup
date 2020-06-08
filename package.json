@@ -1,0 +1,39 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "ts-node-dev --respawn src/index.ts",
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dicere-app/api.git"
+  },
+  "keywords": [],
+  "author": "Renato Ferreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dicere-app/api/issues"
+  },
+  "homepage": "https://github.com/Dicere-app/api#readme",
+  "dependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.6",
+    "@types/jest": "^25.2.3",
+    "@types/node": "^14.0.11",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.18",
+    "ts-jest": "^26.1.0",
+    "ts-node": "^8.10.2",
+    "ts-node-dev": "^1.0.0-pre.44"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "typescript": "^3.9.5"
+  }
+}
